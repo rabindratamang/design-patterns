@@ -9,6 +9,7 @@ public class EnemyShipTesting {
         if(userInput.hasNextLine()){
             String typeOfShip = userInput.nextLine();
             theEnemy = shipFactory.makeEnemyShip(typeOfShip);
+            userInput.close();
         }
 
         if(theEnemy != null){
