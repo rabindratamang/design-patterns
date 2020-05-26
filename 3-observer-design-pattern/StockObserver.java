@@ -28,6 +28,6 @@ public class StockObserver implements CustomObserver{
             "\nIBM:" + ibmPrice + 
             "\nApple:" + applePrice +
             "\nGoogle:" + googlePrice
-            );
+        );
     }
 }
